@@ -23,7 +23,7 @@ contract TodoList {
   );
 
   constructor() public {
-    createTask("Check out dappuniversity.com");
+    createTask("Check Ethereum Wallet");
   }
 
   function createTask(string memory _content) public {
